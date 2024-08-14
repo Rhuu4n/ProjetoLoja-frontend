@@ -1,0 +1,29 @@
+<div>
+    
+    <div id="boxOptions">
+        <h1 style="text-align: center; color: aliceblue;">FrontEnd Produtos</h1>
+        <p>
+            <a id="txtLink" (click)="screenCreate()">Adicionar produto</a>
+            <a id="lblColumn">|</a>
+            <a id="txtLink" (click)="screenRead()">Deletar produtos</a>
+            <a id="lblColumn">|</a>
+            <a id="txtLink" (click)="screenUpdate()">Atualizar produtos</a>
+        </p>
+    </div>
+
+    <div id="boxCreate">
+        
+        <p id="lblTitle">Adicionar produto:</p>
+    
+        <input id="txtName" type="text" placeholder="Nome do produto!"/>
+        <input id="txtPrice" type="number" placeholder="Preço do produto!"/>
+        <input id="txtDescription" type="text" placeholder="Descrição do produto!"/>
+        <button id="btnCreate" (click)="postClick()">Adicionar</button>
+    </div>
+    
+    <div id="boxRead" (click)="screenRead()">
+    </div>
+
+    <div id="boxUpdate">
+    </div>
+</div>

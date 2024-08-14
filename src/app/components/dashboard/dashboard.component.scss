@@ -1,0 +1,92 @@
+#boxCreate{
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    margin-top: 125px;
+    width: 175px;
+}
+
+#boxRead{
+    visibility: collapse;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    margin-top: 125px;
+    
+    max-height: 500px;
+    overflow-y: auto;
+    padding-left: 50%;
+    padding-right: 50%;
+}
+
+#boxUpdate{
+    visibility: collapse;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    margin-top: 125px;
+    
+    max-height: 500px;
+    overflow-y: auto;
+    padding-left: 50%;
+    padding-right: 50%;
+}
+
+#boxCreate input{
+    text-align: center;
+}
+
+#boxCreate button{
+    margin-left: 55px;
+}
+
+#lblTitle{
+    text-align: center;
+}
+
+#boxOptions{
+    background: #3b5998;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    text-align: center;
+}
+
+#lblColumn{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#txtLink:hover{
+    transition: 250ms;
+    background: aliceblue;
+    color: #3b5998;
+}
+
+#btnCreate{
+    color: aliceblue;
+    background: #3b5998;
+    border-radius: 25px;
+}
+
+#btnCreate:hover{
+    transition: 250ms;
+    background: aliceblue;
+    color: #3b5998;
+}
+
+a {
+    cursor: pointer;
+    color: aliceblue;
+    border-radius: 25px;
+    padding: 7px;
+    text-decoration: none;
+}
+
+input {
+    margin-bottom: 10px;
+}
