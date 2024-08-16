@@ -5,6 +5,11 @@
     transform: translate(-50%, 0%);
     margin-top: 125px;
     width: 175px;
+    background: #3b5998;
+    border-radius: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 25px;
 }
 
 #boxRead{
@@ -68,15 +73,9 @@
 }
 
 #btnCreate{
-    color: aliceblue;
-    background: #3b5998;
-    border-radius: 25px;
-}
-
-#btnCreate:hover{
-    transition: 250ms;
     background: aliceblue;
     color: #3b5998;
+    border-radius: 25px;
 }
 
 a {
